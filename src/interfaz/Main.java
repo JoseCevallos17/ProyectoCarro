@@ -5,6 +5,7 @@ import negocio.Carro;
 void main() {
     Carro c1; //crear una referencia aun objeto de la clase Carro
     c1 = new Carro(); //instanciando
-    c1.acelerar();
+
+    c1.potencia=8;
 
 }
